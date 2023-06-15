@@ -1,5 +1,3 @@
-# Questão 2
-
 nome = 'Fernando Alves de Araujo'
 ru = '3880995'
 saldoC = 0
@@ -15,7 +13,6 @@ print(f'''{'*' * 15} Cardápio {'*' * 15}
 |105| X-Tudo                     |17,00|
 |200| Refrigerante Lata           |5,00|
 |201| Chá Gelado                  |4,00|''')
-
 
 def produtos(item):
     Produtos = {

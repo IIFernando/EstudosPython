@@ -1,11 +1,10 @@
-# Questão 1
 nome = 'Fernando Alves de Araujo'
 ru = '3880995'
 
 print(f'Bem vindo a loja do {nome}.')
 
 v_produto = float(input('Informe o valor unitário do produto: R$ '))
-q_produto = int(input('Informe a quantidade do produto'))
+q_produto = int(input('Informe a quantidade do produto: '))
 
 print(f'O valor sem desconto foi: R$ {q_produto * v_produto:.2f}')
 
